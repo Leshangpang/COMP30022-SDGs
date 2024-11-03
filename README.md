@@ -66,6 +66,29 @@ Our goal is to offer an intuitive, user-friendly platform that educates and moti
    - Admins can monitor and approve user-generated content (future implementation possibility).
 
 ---
+## Repo Structure 
+├── public                         # Static resource folder
+│   ├── favicon.ico                # Website icon
+│   └── index.html                 # Main HTML file, entry point of the app
+├── src                            # Main source code directory
+│   ├── __tests__                  # Testing folder, contains unit test files
+│   ├── assets                     # Static assets (images, fonts, styles, etc.)
+│   ├── components                 # Reusable Vue components
+│   ├── js                         # JavaScript utility functions or modules
+│   ├── plugins                    # Vue plugins or third-party plugin configurations
+│   ├── router                     # Router configuration directory
+│   ├── views                      # Page-level components
+│   ├── App.vue                    # Root component, main layout of the application
+│   ├── eventBus.js                # Event bus for communication between components
+│   └── main.js                    # Entry file, initializes the Vue instance
+├── README.md                      # Project documentation
+├── babel.config.js                # Babel configuration file for JavaScript transpiling
+├── jest.config.js                 # Jest configuration file for testing setup
+├── jsconfig.json                  # JavaScript configuration, usually for path aliases
+├── package-lock.json              # Locked versions of dependencies
+├── package.json                   # Project configuration, defines dependencies and scripts
+└── vue.config.js                  # Vue CLI configuration file, customizes webpack settings
+---
 
 ## Installation
 
